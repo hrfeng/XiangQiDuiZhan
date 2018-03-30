@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_15dp"
+        android:text="游戏说明：两台手机通过wifi连接进行对战,其中一台创建游戏，另一台连接名称为“象棋对战”的wifi热点后方可加入游戏。(wifi热点密码是：1233211234567.)\n作者：HRF"
+        android:textSize="@dimen/font_25sp" />
+
+
+</RelativeLayout>
